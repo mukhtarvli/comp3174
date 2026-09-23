@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">activity1</string>
+    <string name="button_label">Click me</string>
+</resources>
