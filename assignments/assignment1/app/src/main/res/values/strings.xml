@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">assignment!</string>
+    <string name="payroll_calculator">Payroll Calculator</string>
+    <string name="number_of_hours_worked">Number of hours worked</string>
+    <string name="hourly_rate_example_20_00">Hourly rate (example: 20.00)</string>
+    <string name="tax_rate_example_0_13">Tax rate (example: 0.13)</string>
+    <string name="calculate">Calculate</string>
+    <string name="results">Results</string>
+    <string name="pay_0_00">Pay: $0.00</string>
+    <string name="overtime_pay_0_00">Overtime Pay: $0.00</string>
+    <string name="total_pay_0_00">Total Pay: $0.00</string>
+    <string name="tax_0_00">Tax: $0.00</string>
+    <string name="about">About</string>
+    <string name="name">Mukhtar Ali</string>
+    <string name="student_id">Student ID: 101578443</string>
+    <string name="about_page">About</string>
+</resources>
