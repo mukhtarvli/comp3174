@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DineTrack"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#2563EB" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discover and save your favourite restaurants"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#666666" />
+
+    <EditText
+        android:id="@+id/searchRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Search restaurants..."
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved Restaurants"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:layout_marginTop="25dp" />
+
+    <LinearLayout
+        android:id="@+id/restaurantList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnAddRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Add Restaurant"
+        android:backgroundTint="#2563EB" />
+
+</LinearLayout>

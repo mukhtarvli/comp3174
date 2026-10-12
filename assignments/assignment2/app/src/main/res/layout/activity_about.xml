@@ -1,0 +1,121 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- App Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DineTrack"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#2563EB" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="25dp" />
+
+        <!-- App Logo Placeholder -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:background="#F0F4FF"
+            android:gravity="center"
+            android:text="DineTrack Logo"
+            android:textColor="#2563EB"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- About App -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About DineTrack"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DineTrack is a personal restaurant guide that helps users keep track of their favourite restaurants. Users can save restaurant details, add ratings, search for places, and easily find restaurant locations."
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="5dp" />
+
+        <!-- Features -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Features"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Add and edit restaurants&#10;• Rate restaurants from 1 to 5 stars&#10;• Search restaurants by name or tags&#10;• View restaurant details&#10;• Get directions to restaurants&#10;• Share restaurant information"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="8dp" />
+
+        <!-- Developers -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed By"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mukhtar Abdullahi Ali&#10;Muhammad-Amin Farhan Ali"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="6dp" />
+
+        <!-- Project Information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="George Brown College&#10;COMP3074 - Mobile App Development&#10;Group 45"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:gravity="center"
+            android:layout_marginTop="35dp" />
+
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Home"
+            android:backgroundTint="#2563EB"
+            android:layout_marginTop="25dp" />
+
+    </LinearLayout>
+</ScrollView>
