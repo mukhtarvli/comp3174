@@ -29,14 +29,25 @@
             android:textStyle="bold"
             android:layout_marginTop="20dp" />
 
-        <TextView
+
+        <ImageView
+            android:id="@+id/imgRestaurant"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="20dp"
             android:background="#EEEEEE"
-            android:gravity="center"
-            android:text="+ Add Restaurant Photo"
-            android:textColor="#777777" />
+            android:contentDescription="Restaurant photo preview"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnSelectPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="+ Select Restaurant Photo"
+            android:textColor="#2563EB"
+            android:backgroundTint="#E8F0FE" />
+
 
         <EditText
             android:id="@+id/etRestaurantName"
@@ -87,15 +98,17 @@
             android:textSize="17sp"
             android:textStyle="bold" />
 
+
         <RatingBar
             android:id="@+id/ratingRestaurant"
-            style="?android:attr/ratingBarStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:numStars="5"
-            android:rating="3"
+            android:rating="0"
             android:stepSize="1"
+            android:isIndicator="false"
             android:layout_marginTop="10dp" />
+
 
         <EditText
             android:id="@+id/etDescription"
@@ -115,6 +128,16 @@
             android:layout_marginTop="25dp"
             android:text="Save Restaurant"
             android:backgroundTint="#2563EB" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel / Back to Home"
+            android:textColor="#2563EB"
+            android:backgroundTint="#E8F0FE"
+            android:layout_marginTop="10dp" />
+
 
     </LinearLayout>
 </ScrollView>
