@@ -82,6 +82,7 @@ class AddRestaurantActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+
             val resultIntent = Intent().apply {
                 putExtra("restaurant_name", name)
                 putExtra("restaurant_address", address)
@@ -90,7 +91,11 @@ class AddRestaurantActivity : AppCompatActivity() {
                 putExtra("restaurant_tags", tags)
                 putExtra("restaurant_description", description)
                 putExtra("restaurant_rating", rating)
+
+                // Pass the selected restaurant photo to MainActivity
+                putExtra("restaurant_photo", selectedPhotoUri?.toString())
             }
+
 
             setResult(Activity.RESULT_OK, resultIntent)
 

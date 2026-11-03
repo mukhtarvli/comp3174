@@ -72,15 +72,6 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- View Details Button -->
-    <Button
-        android:id="@+id/btnViewDetails"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="View Restaurant Details"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#2563EB" />
-
     <!-- Add Restaurant Button -->
     <Button
         android:id="@+id/btnAddRestaurant"

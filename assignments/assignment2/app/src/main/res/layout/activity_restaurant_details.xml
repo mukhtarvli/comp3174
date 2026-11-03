@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -12,13 +12,16 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <TextView
+
+        <ImageView
+            android:id="@+id/imgRestaurantDetails"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="DineTrack"
-            android:textColor="#2563EB"
-            android:textSize="28sp"
-            android:textStyle="bold" />
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:background="#EEEEEE"
+            android:scaleType="centerCrop"
+            android:contentDescription="Restaurant photo" />
+
 
         <TextView
             android:layout_width="match_parent"
@@ -37,40 +40,53 @@
             android:textColor="#777777" />
 
         <TextView
+            android:id="@+id/tvRestaurantName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="The Maple Bistro"
+            android:text="Restaurant Name"
             android:textSize="25sp"
             android:textStyle="bold"
             android:textColor="#222222"
             android:layout_marginTop="20dp" />
 
         <TextView
+            android:id="@+id/tvRating"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="★★★★☆  4/5"
+            android:text="Rating"
             android:textSize="20sp"
             android:textColor="#E5A000"
             android:layout_marginTop="8dp" />
 
         <TextView
+            android:id="@+id/tvCuisine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cuisine: Canadian"
+            android:text="Cuisine:"
             android:textSize="16sp"
             android:layout_marginTop="15dp" />
 
         <TextView
+            android:id="@+id/tvAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Address: 123 Main Street, Toronto"
+            android:text="Address:"
             android:textSize="16sp"
             android:layout_marginTop="10dp" />
 
         <TextView
+            android:id="@+id/tvPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Phone: (416) 555-0123"
+            android:text="Phone:"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tvTags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tags:"
             android:textSize="16sp"
             android:layout_marginTop="10dp" />
 
@@ -83,13 +99,15 @@
             android:layout_marginTop="25dp" />
 
         <TextView
+            android:id="@+id/tvDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="A cozy restaurant serving delicious Canadian food in a welcoming atmosphere."
+            android:text="Restaurant description"
             android:textSize="15sp"
             android:layout_marginTop="10dp" />
 
         <Button
+            android:id="@+id/btnDirections"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Get Directions"
@@ -97,10 +115,22 @@
             android:layout_marginTop="25dp" />
 
         <Button
+            android:id="@+id/btnShare"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Share Restaurant"
             android:layout_marginTop="10dp" />
+
+
+        <Button
+            android:id="@+id/btnDeleteRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Restaurant"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#DC2626"
+            android:layout_marginTop="15dp" />
+
 
         <Button
             android:id="@+id/btnBack"
